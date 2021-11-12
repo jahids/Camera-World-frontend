@@ -16,7 +16,7 @@ const Hero = () => {
 
     useEffect(()=> {
         
-        fetch('http://localhost:5000/services/limit')
+        fetch('https://warm-hamlet-32240.herokuapp.com/services/limit')
         .then(res => res.json())
         .then(data => setproduct(data))
 

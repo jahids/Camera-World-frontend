@@ -19,7 +19,7 @@ const MyOrder = () => {
     
     useEffect(() => {
 
-        axios.post("http://localhost:5000/services/xyz",
+        axios.post("https://warm-hamlet-32240.herokuapp.com/services/xyz",
         {key: email})
             .then(res => setServices(res.data));
     } ,[]);
@@ -29,7 +29,7 @@ const MyOrder = () => {
         const confirmation = window.confirm('Are you sure you want to delete this order');
 
         if(confirmation){
-            axios.get(`http://localhost:5000/order/deleteOrder/${id}`)
+            axios.get(`https://warm-hamlet-32240.herokuapp.com/order/deleteOrder/${id}`)
                 .then(res => {
                     if(res.data.deletedCount > 0){
                         const resData = services.filter(sServices => sServices._id !== id);

@@ -22,7 +22,7 @@ const MakeAdmin = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch('http://localhost:5000/users/admin', {
+        fetch('https://warm-hamlet-32240.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -31,6 +31,7 @@ const MakeAdmin = () => {
         })
         .then(res => res.json())
         .then(data => console.log(data))
+
     };
 
     return (

@@ -26,7 +26,7 @@ const AddReview = () => {
 
     const onSubmit = data => {
         // console.log(data)
-        axios.post('http://localhost:5000/addReview', data)
+        axios.post('https://warm-hamlet-32240.herokuapp.com/addReview', data)
         .then(res => {
             console.log(res)
             if(res.data.insertedId){

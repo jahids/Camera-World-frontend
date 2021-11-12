@@ -108,7 +108,7 @@ const Usefirebase = () => {
 
       const saveUser = (displayName,email) => {
         const user = {  displayName, email };
-        fetch('http://localhost:5000/users', {
+        fetch('https://warm-hamlet-32240.herokuapp.com/users', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -121,7 +121,7 @@ const Usefirebase = () => {
 
     const saveGoogleUser = (displayName, email) => {
       const user = { displayName, email };
-      fetch('http://localhost:5000/users', {
+      fetch('https://warm-hamlet-32240.herokuapp.com/users', {
         method: 'PUT',
         headers: {
           'content-type': 'application/json'
@@ -131,7 +131,7 @@ const Usefirebase = () => {
     }
 
     useEffect(() => {
-      fetch(`http://localhost:5000/user/${user.email}`)
+      fetch(`https://warm-hamlet-32240.herokuapp.com/user/${user.email}`)
         .then(res => res.json())
         .then(data => {
           console.log(data.admin);

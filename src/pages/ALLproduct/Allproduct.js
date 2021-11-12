@@ -7,7 +7,7 @@ const Allproduct = () => {
 
     useEffect(()=> {
         
-        fetch('http://localhost:5000/services')
+        fetch('https://warm-hamlet-32240.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setproduct(data))
 

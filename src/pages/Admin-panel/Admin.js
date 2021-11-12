@@ -8,7 +8,7 @@ const Admin = () => {
 
     const onSubmit = data => {
     console.log(data);
-    axios.post('http://localhost:5000/services', data)
+    axios.post('https://warm-hamlet-32240.herokuapp.com/services', data)
     .then(res => {
         if(res.data.insertedId){
          alert('succesful data saved');

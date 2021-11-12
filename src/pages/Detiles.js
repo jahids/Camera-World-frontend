@@ -17,7 +17,7 @@ const Detiles = () => {
     // str loading is true
 
     useEffect( () => {
-       fetch(`http://localhost:5000/services/jahid/${id}`)
+       fetch(`https://warm-hamlet-32240.herokuapp.com/services/jahid/${id}`)
         .then(res => res.json())
         .then(data => {
             setServiceDetails(data)
@@ -30,7 +30,7 @@ const Detiles = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/services/order', data)
+        axios.post('https://warm-hamlet-32240.herokuapp.com/services/order', data)
         .then(res => {
             if(res.data.insertedId){
                 alert("data insert successfully");
