@@ -1,0 +1,86 @@
+
+
+[
+    {
+        
+        "id": 1,
+        "name": "DR. A. S. M. ZAHED",
+        "dgree": "MBBS, FCPS (Medicine)",
+        "medical":"Associate  Professor, Medicine Chattogram Medical College",
+        "time": "Time: 5.30 pm to 8 pm (Only Sun & Wed)",
+         "img":"https://i.ibb.co/C836w2y/9.jpg"
+      },
+    {
+        
+        "id": 2,
+        "name": "DR. MOHAMMAD MOINUDDIN",
+        "dgree": "MBBS, FCPS (Medicine)",
+        "medical":"Assistant Professor, CMCH",
+        "time": "Time: 5pm to 9pm (Sat,Mon,Wednes)",
+         "img":"https://i.ibb.co/SV8N8rW/8.jpg"
+      },
+    {
+        
+        "id": 3,
+        "name": "DR. MOSTAFA NOOR MOHSIN",
+        "dgree": "MBBS, FCPS (Medicine) MD (Gastroenterology)",
+        "medical":"Assistant Professor, CMCH",
+        "time": "Time: 5pm to 7pm (Fri off)",
+         "img":"https://i.ibb.co/qjQPfqb/7.jpg"
+      },
+    {
+        
+        "id": 4,
+        "name": "DR. MUHAMMAD TAYEB",
+        "dgree": "MBBS, BCS (Health) MD (Neuro Medicine)",
+        "medical":"Assistant Professor, Neurology",
+        "time": "Time: 5pm to 7pm (Sat, Mon & Wed)",
+         "img":"https://i.ibb.co/K0zH6GC/5.jpg"
+      },
+    {
+        
+        "id": 5,
+        "name": "DR. MD. MUHITUL ISLAM",
+        "dgree": "MBBS, MD (Neuro Medicine)",
+        "medical":"Associate Professor, Neurology Sir Salimullah Medical College",
+        "time": "Time: Call Serial Number",
+         "img":"https://i.ibb.co/d75JxND/6.jpg"
+      },
+    {
+        
+        "id": 6,
+        "name": "DR. MOHAMMAD REZAUL KARIM",
+        "dgree": "MBBS, BCS (Health)",
+        "medical":"MD (Internal Medicine) Room No.: 227",
+        "time": "Time: 5pm to 6pm (Sat,Mon,Thurs)",
+         "img":"https://i.ibb.co/kx94mJY/4.jpg"
+      },
+    {
+        
+        "id": 7,
+        "name": "DR. SAIFUDDIN MAHMUD",
+        "dgree": "MBBS, BCS (Health) FCPS (Medicine)",
+        "medical":"Consultant, Medicine",
+        "time": "Time: 6.30pm to 9pm (Sat to Thu)",
+         "img":"https://i.ibb.co/JsyLMLn/3.jpg"
+      },
+    {
+        
+        "id": 8,
+        "name": "DR. UMME TAHERA",
+        "dgree": "MBBS, FCPS (Medicine)",
+        "medical":"Assistant Professor, Medicine Chittagong Int. Medical College",
+        "time": "Time: 6 pm -9 pm (Thu &Friday Off)",
+         "img":"https://i.ibb.co/6DsxqTS/01.jpg"
+      },
+
+{
+  	    "id": 9,
+        "name": "DR. A. S. M. Karim",
+        "dgree": "MBBS, FCPS (Medicine)",
+        "medical":"Associate  Professor, Medicine Chattogram Medical College",
+        "time": "Time: 5.30 pm to 8 pm (Only Sun & Wed)",
+         "img":"https://i.ibb.co/YjpSh6z/02.jpg"
+}
+
+]
