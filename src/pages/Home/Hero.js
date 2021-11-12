@@ -74,7 +74,7 @@ const Hero = () => {
  
       
     <h2> Our services</h2>
-    {/* <div class="row row-cols-1 row-cols-md-3 g-4"> */}
+   
     <div className="container">
     <div class=" row row-cols-12 row-cols-md-3 g-5">
            
