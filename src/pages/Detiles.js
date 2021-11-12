@@ -14,6 +14,7 @@ const Detiles = () => {
     const {Name, description, img, _id, key} = singleServiceDetails
     // console.log(servicesId);
     // setIsLoading(true)
+    // str loading is true
 
     useEffect( () => {
        fetch(`http://localhost:5000/services/jahid/${id}`)
